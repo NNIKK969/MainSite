@@ -1,0 +1,326 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  /*Верхняя часть головы*/
+  .header1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    padding-right: 66px;
+    padding-left: 59px;
+    background-color: rgba(240, 219, 219, 1);
+  }
+  .in-text1 {
+    display: flex;
+  }
+  
+  .city {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+  
+    margin-left: 0px;
+  }
+  
+  .city-text {
+    max-width: 160px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+  }
+  .interval {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(74% - 13px);
+    margin-left: 20px;
+  }
+  
+  .telephone {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(16.09% - 13.333333333333334px);
+    margin-left: 20px;
+  }
+  
+  .telephone-text {
+    max-width: 289px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /*Нижняя часть головы*/
+  .header2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-self: stretch;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    padding-left: 37px;
+    background-color: rgba(219, 163, 154, 1);
+  }
+  .in-text2 {
+    display: flex;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(6.88% - 13.333333333333334px);
+    margin-left: 0px;
+  }
+  
+  .logo1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 71px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px;
+    padding-right: 19px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+  }
+  .frame-text-servis {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(91.86% - 13.333333333333334px);
+    margin-left: 100px;
+  }
+  
+  .locatino-text-servis {
+    display: flex;
+    flex-direction: column;
+    max-width: 1800px;
+    padding-top: 29px;
+    padding-right: 38px;
+    padding-bottom: 29px;
+    padding-left: 38px;
+    background-color: rgba(219, 163, 154, 1);
+  }
+  .text-servis {
+    display: flex;
+  }
+  
+  .text-header {
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 130px;
+    margin-left: 0px;
+  }
+  
+  .portfolio-page {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 185px;
+    margin-left: 80px;
+  }
+  
+  .price-page {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 230px;
+    margin-left: 80px;
+  }
+  
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 440px;
+    margin-left: 80px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+
+/* стили для диалогового окна */
+dialog {
+  top: 40%;
+  width: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* стили для кнопки, открывающей окно */
+.button-open {
+  background-color: rgba(245, 235, 224, 1);
+  color: rgb(0, 0, 0);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 30px;
+}
+
+/* стили для кнопки закрытия окна */
+.button-close {
+  background-color: #ccc;
+  color: #000;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+
+  main {
+    flex-direction: column;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+  }
+  table.cinereousTable {
+  border: 6px solid #948473;
+  background-color: #FFE3C6;
+  width: 100%;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+ 
+}
+table.cinereousTable td, table.cinereousTable th {
+  border: 2px solid #948473;
+  padding: 4px 4px;
+}
+table.cinereousTable tbody td {
+  font-size: 13px;
+}
+p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+table {
+  margin-top: 20px;
+}
+.port-photo-1 {
+  display: flex;
+  justify-content: center;
+}
+
+  
+  /*Подвал*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    background-color: rgba(240, 219, 219, 1);
+  }
+  .box-text-footer {
+    display: flex;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .flex-box {
+    display: flex;
+  }
+  .box-mail {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-right: 21px;
+    padding-bottom: 5px;
+    padding-left: 21px;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .text-mail {
+    max-width: 349px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  .box-telephone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding-top: 6px;
+    padding-right: 27px;
+    padding-bottom: 6px;
+    padding-left: 27px;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .text-telephone {
+    max-width: 339px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(219, 163, 154, 1);
+  }
+  .box-end-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(219, 163, 154, 1);
+  }
+  .text-end-footer {
+    max-width: 364px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 25px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }

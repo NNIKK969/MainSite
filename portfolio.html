@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio-css.css" />
+    <title>Главная - компьютерный мастер</title>
+  </head>
+  <body>
+    <!--Голова-->
+    <header>
+      <!--Верхняя часть головы-->
+      <div class="header1">
+        <div class="in-text1">
+          <div class="city">
+            <div class="city-text">г. Москва</div>
+          </div>
+          <div class="interval"></div>
+          <div class="telephone">
+            <div class="telephone-text">+7 (892) 143-15-22</div>
+          </div>
+        </div>
+      </div>
+
+      <!--Нижняя часть головы-->
+      <div class="header2">
+        <div class="in-text2">
+          <div class="logo">
+            <div class="logo1">
+              <img src="computer.png" alt="Icon" width="60" />
+            </div>
+          </div>
+          <div class="frame-text-servis">
+            <div class="locatino-text-servis">
+              <div class="text-servis">
+                <div class="main-page">
+                  <a href="index.html"><button class="text-header"> Главная</button></a>
+                </div>
+                <div class="portfolio-page">
+                  <a href="portfolio.html"><button class="text-header">Портфолио</button></a>
+                </div>
+                <div class="price-page">
+                  <a href="servis.html"><button class="text-header">Услуги и цены</button></a>
+                </div>
+                <div class="contact-page">
+                  <a href="#footer"><button class="text-header">Контакты и обратная связь</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <table class="cinereousTable">
+            <tbody>
+            <tr>
+            <td><p> Этот компьютер был собран профессиональным компьютерным мастером с большим опытом работы. Компьютер оснащен современным процессором Intel Core i9 12-го поколения, который обеспечивает высокую скорость работы и отличную производительность в любых задачах. Также имеется высокопроизводительная видеокарта NVIDIA GeForce RTX 3090, которая позволяет запускать самые новые игры на максимальных настройках графики. Оперативная память 4 плашки в объеме 64 ГБ  обеспечивает быструю обработку данных и плавную работу компьютера без задержек. Кроме того, данный компьютер оснащен быстрым накопителем SSD с объемом 2 ТБ, который обеспечивает быструю загрузку системы и программ, а также быстрый доступ к файлам. В качестве операционной системы была установлена Windows 10 Pro, которая обеспечивает надежность и безопасность работы компьютера. В результате получился надежный и мощный компьютер, который будет служить Вам долгие годы.</p></td><td><div class="port-photo-1"><img src="portfolio photo 1.jpg" width="300"></div></td></tr>
+            <tr>
+            <td><img src="portfolio photo 2.jpg" width="850"></td><td><p>Мы знаем, что пыль и грязь могут серьезно повлиять на производительность и долговечность компьютера, поэтому предлагаем наши профессиональные услуги по чистке компьютеров. На прилагаемом фото Вы можете увидеть, как мы тщательно очищаем компьютер от пыли и грязи. Мы используем специальную технику и инструменты, чтобы убрать пыль из самых труднодоступных участков компьютера. Мы также проверяем работоспособность всех компонентов и частей компьютера, чтобы убедиться, что они функционируют правильно. После того, как мы закончили чистку, компьютер будет работать более эффективно, тише и продолжительное время без сбоев. Короче говоря, мы гарантируем, что после чистки Ваш компьютер будет работать как новый.</p></td></tr>
+            <tr>
+            <td><p>На фотографии видно, что роутер полностью разобран на части. На столе лежат платы, провода и мелкие детали, которые были сняты с устройства. Видно, что владелец роутера производит ремонт самостоятельно, возможно, с целью замены какой-то неисправной детали или повышения быстродействия устройства. В целом, сцена выглядит как типичный домашний ремонт, выполненный при помощи доступных инструментов и средств, но требующий некоторых знаний и опыта в области электроники.</p></td><td><img src="portfolio photo 3.jpeg" width="800"></td></tr>
+            </tbody>
+            </tr>
+            </table>
+            
+    
+            <button class="button-open"><p>Все работы</p></button>
+
+            <dialog id="myDialog">
+              <div>
+                <p>Пока что это все работы :)</p>
+                <button class="button-close" data-action="close">Закрыть окно</button>
+              </div>
+            </dialog>
+            <script>
+              // получаем кнопки и диалоговое окно
+const buttonOpen = document.querySelector(".button-open");
+const buttonClose = document.querySelector(".button-close");
+const myDialog = document.querySelector("#myDialog");
+
+// обработчик события для кнопки открытия
+buttonOpen.addEventListener("click", function () {
+    myDialog.showModal();
+});
+
+// обработчик события для кнопки закрытия
+buttonClose.addEventListener("click", function () {
+    myDialog.close();
+});
+            </script>
+
+
+
+
+    </main>
+    <!--Подвал-->
+<footer>
+    <div class="footer">
+      <a name="footer"><div class="footer1"></a>
+        <div class="box-text-footer">
+          <div class="flex-box">
+            <div class="box-mail">
+              <div class="text-mail">Email: 1456599_ru@mail.ru</div>
+            </div>
+              <div class="box-telephone">
+                <div class="text-telephone">Телефон: +7 909 922 11 44</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="box-end-footer">
+          <div class="text-end-footer">компьютер.ру 1999 - 2023 г.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    </body>
+  </html>
